@@ -1,6 +1,8 @@
 import React from 'react'
 
 import Counter from './Counter'
+import ForceUpdate from './ForceUpdate'
+import Form from './Form'
 
 const App = (props) => (
   <div>
@@ -9,6 +11,12 @@ const App = (props) => (
       min={-10}
       max={10}
     />
+    <hr />
+    <Counter />
+    <hr />
+    <ForceUpdate />
+    <hr />
+    <Form />
   </div>
 )
 
