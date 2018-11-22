@@ -5,6 +5,7 @@ import ForceUpdate from './ForceUpdate'
 import Form from './Form'
 import Form2 from './Form2'
 import Users from './Users'
+import Users2 from './Users2'
 
 const App = (props) => (
   <div>
@@ -23,6 +24,9 @@ const App = (props) => (
     <Form2 />
     <div>
       <Users />
+    </div>
+    <div>
+      <Users2 />
     </div>
 
   </div>
