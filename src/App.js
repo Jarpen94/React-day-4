@@ -3,6 +3,7 @@ import React from 'react'
 import Counter from './Counter'
 import ForceUpdate from './ForceUpdate'
 import Form from './Form'
+import Form2 from './Form2'
 
 const App = (props) => (
   <div>
@@ -17,6 +18,9 @@ const App = (props) => (
     <ForceUpdate />
     <hr />
     <Form />
+    <hr />
+    <Form2 />
+    
   </div>
 )
 
