@@ -4,10 +4,11 @@ import Counter from './Counter'
 import ForceUpdate from './ForceUpdate'
 import Form from './Form'
 import Form2 from './Form2'
+import Users from './Users'
 
 const App = (props) => (
   <div>
-    <Counter 
+    <Counter
       startValue={5}
       min={-10}
       max={10}
@@ -20,7 +21,10 @@ const App = (props) => (
     <Form />
     <hr />
     <Form2 />
-    
+    <div>
+      <Users />
+    </div>
+
   </div>
 )
 

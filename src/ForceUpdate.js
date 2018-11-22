@@ -4,15 +4,15 @@ import React from 'react'
 // render should depends only form props and state
 
 class ForceUpdate extends React.Component {
-  componentDidMount(){
+  componentDidMount() {
     setInterval(
-      () => this.forceUpdate() ,
+      () => this.forceUpdate(),
       1000
     )
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         {String(new Date())}
       </div>
